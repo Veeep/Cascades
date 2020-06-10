@@ -1,14 +1,41 @@
 
-
-
-.list {
-  
+h1{
+  text-align: center;
 }
 
+body {
+  background-color: burlywood;
+  color: brown;
+}
+.list {
+  margin: 12px;
+  border: 2px dashed green;
+  padding: 4px;
+  font-weight: 300;
+  background-color: blue;
+  color: bisque;
+  width: 25%;
+}
 
+.top {
+  text-align: center;
+  font-size: larger;
+  color: blue;
+}
 
 .column {
-  width: 33%;
+  background-color: cornsilk;
+  margin: 12px;
+  border: 2px dashed rgb(19, 25, 73);
+  padding: 4px;
+  width: 30%;
   float: left;
-
 }
+
+.pic {
+ width: 100%;
+ 
+}
+
+p {color: teal;
+text-align: center;}
