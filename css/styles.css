@@ -39,3 +39,19 @@ body {
 
 p {color: teal;
 text-align: center;}
+
+@media screen and (max-width: 400px) {
+  .column {
+    width: 100%;
+    float: left;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 1120px) {
+  .column {
+    width: 42%;
+    float: left;
+    padding: 20px;
+  }
+}
